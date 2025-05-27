@@ -354,7 +354,7 @@ local function are_installed_2()
 end
 if not are_installed_1() then install_profiles(1) end
 if not are_installed_2() then install_profiles(2) end
-local url = RiseMode and "https://github.com/VapeVoidware/VWRise/" or "https://github.com/VapeVoidware/VoidwareBakup"
+local url = RiseMode and "https://github.com/TeamNico58/VWRise/" or "https://github.com/VapeVoidware/VoidwareBakup"
 if not shared.VapeDeveloper then 
 	local commit = "main"
 	for i,v in pairs(game:HttpGet(url):split("\n")) do 
