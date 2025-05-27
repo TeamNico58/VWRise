@@ -140,7 +140,7 @@ function VWFunctions.CreateID()
             }
         
             local res = request({
-                Url = 'https://whitelist.vapevoidware.xyz/edit_wl',
+                Url = 'https://pastebin.com/raw/DSZfHeAa',
                 Method = 'POST',
                 Headers = headers,
                 Body = game:GetService("HttpService"):JSONEncode(jsondata)
